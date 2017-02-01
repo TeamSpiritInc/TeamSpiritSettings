@@ -15,6 +15,18 @@ TeamSpirit インストールガイドに記載されている下記の承認プ
 - 稟議
 - 定期区間変更申請
 
+Salesforceボタンを利用する
+--------
+#### [前提条件]
+ - 接続先組織に「TeamSpirit」がインストールされていること
+
+#### Salesforceボタン
+
+1. [Deploy to Salesforce]ボタンをクリックすると、GitHub Salesforce Deploy Toolページが開きます。
+1. 右上の[Login to Salesforce]ボタンをクリックすると、ログイン画面に遷移します。但し、ブラウザがすでにSalesforce組織にログインしていた場合、ログイン画面はスキップします。
+1. 承認プロセスを設定したいSalesforce組織にログインすると、GitHubリポジトリ情報、デプロイ対象の組織情報、デプロイ対象ファイルが表示されます。
+1. 右上の[Deploy]ボタンをクリックすると、承認プロセスのデプロイが開始します。「To Salesforce Org」の下にデプロイ状況が表示されます。「Deployment Complete」と表示されると完了です。
+
 Force.com 移行ツールを利用する
 --------
 
